@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: 0;
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+#chat-box {
+  width: 100%;
+  max-width: 940px;
+  height: 65dvh;
+  background-color: #000000;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 15px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Para espaçamento entre mensagens */
+}
+
+/* Alinha as mensagens do usuário à direita */
+.user-message {
+  align-self: flex-end;
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+/* Alinha as mensagens do bot à esquerda */
+.bot-message {
+  align-self: flex-start;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+/* Estiliza o input */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* Estiliza o botão */
+button {
+  padding: 10px 15px;
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Efeito hover para o botão */
+button:hover {
+  background-color: #FFFFFF;
+}

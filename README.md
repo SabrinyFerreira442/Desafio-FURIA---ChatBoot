@@ -1,0 +1,2 @@
+# Desafio-FURIA---ChatBoot
+Este é um mini projeto desenvolvido em JavaScript, focado na criação de um chat interativo. A ideia principal foi aplicar conceitos aprendidos na linguagem de forma simples, mas funcional, criando um chat onde o usuário pode interagir com respostas automatizadas do bot. O projeto foi desenvolvido com o objetivo de aprimorar o conhecimento em JavaScript e de testar as habilidades em manipulação de DOM, eventos e integração entre HTML, CSS e JS.
