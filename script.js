@@ -3,26 +3,26 @@ document.addEventListener("DOMContentLoaded", function () {
   const userInput = document.getElementById("user-input");
   const chatBox = document.getElementById("chat-box");
 
-  // Enviar mensagem quando o botão "Enviar" for clicado
+
   sendBtn.addEventListener("click", function () {
     enviarMensagem();
   });
 
-  // Enviar mensagem ao pressionar a tecla Enter
+  
   userInput.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
-      event.preventDefault();  // Impede o comportamento padrão (como pular linha)
+      event.preventDefault(); 
       enviarMensagem();
     }
   });
 
   function enviarMensagem() {
-    const message = userInput.value.trim(); // Pega o texto digitado
+    const message = userInput.value.trim(); 
 
     if (message !== "") {
-      mostrarMensagem("Você", message); // Mostra a mensagem do usuário
-      responderBot(message);            // Responde com base na pergunta
-      userInput.value = "";             // Limpa o campo de texto
+      mostrarMensagem("Você", message); 
+      responderBot(message);            
+      userInput.value = "";             
     }
   }
 
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function mostrarMensagem(remetente, texto) {
     const msg = document.createElement("p");
 
-    // Verifica se a mensagem é do usuário ou do bot
+    
     if (remetente === "Você") {
       msg.classList.add("user-message");
     } else {
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function responderBot(pergunta) {
     let resposta = "";
 
-    // Convertendo para minúsculas para facilitar comparação
+
     const perguntaFormatada = pergunta.toLowerCase();
 
     if (perguntaFormatada.includes("próximo jogo")) {
