@@ -68,7 +68,7 @@ https://encr.pw/Video-demonstrando-o-uso
 
 **👩‍💻 Autora**
 
-Desenvolvido por Sabriny Ferreira como parte do desafio proposto pela FÚRIA, com foco em praticar JavaScript, interatividade e criatividade.
+Desenvolvido por Sabriny Ferreira como parte do desafio proposto pela FURIA, com foco em praticar JavaScript, interatividade e criatividade.
 
 GitHub: https://github.com/SabrinyFerreira442
 
