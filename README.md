@@ -8,20 +8,30 @@ Este é um mini projeto desenvolvido em JavaScript puro, com o objetivo de criar
 **🎯 Funcionalidades**
 
 Saudação personalizada com base no horário do dia.
+
 Respostas automáticas com base em palavras-chave como:
 "próximo jogo"
+
 "história da furia"
+
 "jogadores da furia"
+
 Mensagens de carinho como "sou fã", "amo a furia" etc.
+
 Mensagem padrão caso a pergunta não seja reconhecida.
+
 Interface simples de chat com scroll automático.
+
 
 
 **🛠️ Tecnologias usadas**
 
 HTML
+
 CSS
+
 JavaScript (sem bibliotecas externas)
+
 
 
 **🚀 Como usar**
@@ -37,6 +47,7 @@ Clique duas vezes no arquivo index.html para abrir o chat diretamente no navegad
 Não é necessário instalar nada. O projeto funciona direto no navegador!
 
 
+
 **🗂️ Estrutura do Projeto**
 
 index.html → Estrutura do chat
@@ -46,11 +57,13 @@ style.css → Estilo visual do chat
 script.js → Lógica do chatbot (respostas automáticas)
 
 
+
 **📷 Demonstração**
 
 Clique aqui para ver o vídeo demonstrando o uso do chat:
 
 https://encr.pw/Video-demonstrando-o-uso
+
 
 
 **👩‍💻 Autora**
