@@ -1,4 +1,5 @@
 Chatbot Interativo - FURIA 🐾
+
 📌 Descrição
 Este é um mini projeto desenvolvido em JavaScript puro, com o objetivo de criar um chatbot interativo da FURIA. O projeto simula uma conversa entre o usuário e um bot que responde automaticamente com base em perguntas específicas. Ele foi feito para praticar manipulação de DOM, eventos, lógica condicional e integração entre HTML, CSS e JS.
 
