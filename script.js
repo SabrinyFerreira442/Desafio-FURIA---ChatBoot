@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
   function boasVindas() {
     const hora = new Date().getHours();
     let saudacao = "";
-    const perguntaFormatada = pergunta.trim().toLowerCase();
 
     if (hora >= 0 && hora < 6) {
       saudacao = "Olá, furioso(a)! 💭 O que faz acordado(a) na madruga?😴😝\n";
