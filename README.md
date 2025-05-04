@@ -62,8 +62,7 @@ script.js → Lógica do chatbot (respostas automáticas)
 
 Clique aqui para ver o vídeo demonstrando o uso do chat:
 
-https://encr.pw/Video-demonstrando-o-uso
-
+https://www.loom.com/share/cd485c6a959f4f41af0ec7444640c205?sid=c914b0b5-41d3-4be4-9435-5a4904014710
 
 
 **👩‍💻 Autora**
