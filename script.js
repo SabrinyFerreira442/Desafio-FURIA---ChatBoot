@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (perguntaFormatada.includes("jogadores")) {
       resposta = "No CS2, os jogadores principais são FalleN, KSCERATO, yuurih, arT e skullz. Já no Valorant, os principais nomes são khalil, havoc, heat, raafa e pryze.";
     }else if (perguntaFormatada.includes("contratada")){
-      resposta = "Com certeza furiosa! Você já mora aqui ó 👉❤, no nosso coração❣";
+      resposta = "Estamos muito felizes com o seu interesse! 😄 A FURIA sempre acolhe novos talentos. Seja bem-vindo à nossa comunidade!";
     } else if (
       perguntaFormatada.includes("sou fã") ||
       perguntaFormatada.includes("amo a furia") ||
